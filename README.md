@@ -18,15 +18,15 @@ Steps :
 
     Model_1: Using Bag Of Words(CountVectorizer) :
 
-      Validation accuracy: 0.9270       Validation f1_score: 0.5412
+      Validation accuracy: 0.9270    |   Validation f1_score: 0.5412
    
      Model_2: TFIDF (Term Frequency Inverse Document Frequency) :
 
-      Validation accuracy: 0.9379       Validation f1_score: 0.5113
+      Validation accuracy: 0.9379    |   Validation f1_score: 0.5113
 
      Model_3: Hashing Vectorizer:
 
-      Validation accuracy: 0.8696       Validation f1_score: 0.2697
+      Validation accuracy: 0.8696    |   Validation f1_score: 0.2697
 
 5. With the necessary preprocessing steps, first train a Bidirectional GRU model.
 6. Then without using any pre-trained word embeddings fpr this Bidirectional GRU model, the best threshold f1_score was found to be 0.25 with an accuracy score of 0.6405.
